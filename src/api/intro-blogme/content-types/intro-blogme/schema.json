@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "intro_blogmes",
+  "info": {
+    "singularName": "intro-blogme",
+    "pluralName": "intro-blogmes",
+    "displayName": "IntroBlogme"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fecha": {
+      "type": "string",
+      "required": true
+    },
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "descripcion": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "centroamericas",
+  "info": {
+    "singularName": "centroamerica",
+    "pluralName": "centroamericas",
+    "displayName": "centroamerica",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fecha": {
+      "type": "string",
+      "required": true
+    },
+    "descripcion": {
+      "type": "richtext",
+      "required": true
+    },
+    "imagenes": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
